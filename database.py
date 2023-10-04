@@ -57,7 +57,8 @@ class database():
     def upload_image(self, username, inp_image, out_image):
         try:
             logging.info("Uploading image to database")
-            self.images.insert_one({'username': username, 'input_image': image, "output_image": out_image})
+            
+            self.images.insert_one({"username": username, "input_image": inp_image, "output_image": out_image})
             logging.info("Database update successful")
             return True
         except Exception as e:
