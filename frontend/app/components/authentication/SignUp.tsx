@@ -42,7 +42,7 @@ const SignUp = () => {
             toast.success('Account created successfully');
             localStorage.setItem('username', credentials.username);
             localStorage.setItem('password', credentials.password);
-            router.push('/sign-in');
+            router.push('/');
         } else {
             toast.error('Something went wrong');
         }
