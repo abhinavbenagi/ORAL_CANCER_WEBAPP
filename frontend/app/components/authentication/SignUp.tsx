@@ -31,20 +31,24 @@ const SignUp = () => {
         formData.append('username', credentials.username);
         formData.append('password', credentials.password);
 
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/signup`, {
-            method: 'POST',
-            body: formData
-        });
+        try {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/signup`, {
+                method: 'POST',
+                body: formData
+            });
 
-        const data = await res.json()
+            const data = await res.json()
 
-        if (data.status === 'success') {
-            toast.success('Account created successfully');
-            localStorage.setItem('username', credentials.username);
-            localStorage.setItem('password', credentials.password);
-            router.push('/');
-        } else {
-            toast.error('Something went wrong');
+            if (data.status === 'success') {
+                toast.success('Account created successfully');
+                localStorage.setItem('username', credentials.username);
+                localStorage.setItem('password', credentials.password);
+                router.push('/');
+            } else {
+                toast.error('Something went wrong');
+            }
+        } catch (error: any) {
+            toast.error(error.message);
         }
         setCredentials({ username: '', password: '' })
     }

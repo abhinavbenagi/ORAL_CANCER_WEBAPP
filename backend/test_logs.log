@@ -204,3 +204,169 @@
 2023-10-07 20:33:47,133 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:47] "GET /generated/2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg HTTP/1.1" 200 -
 2023-10-07 20:33:57,100 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:57] "GET /generated/2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg HTTP/1.1" 200 -
 2023-10-07 20:33:57,413 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-07 22:30:21,849 - INFO - Image 60578.jpg saved to uploads/original\76ea7c84-6d3d-454a-8827-cf41da09ccfe.jpg
+2023-10-07 22:30:21,852 - INFO - Image 74737.jpg saved to uploads/original\366d3d03-ed13-45bf-80ee-f68dbaa49fd7.jpg
+2023-10-07 22:30:21,855 - INFO - Image 428356.jpg saved to uploads/original\4ab9a606-c818-488d-9cd0-7473af242fe2.jpg
+2023-10-07 22:30:22,005 - INFO - Classification class initialization successful
+2023-10-07 22:30:22,005 - INFO - caller function initiated
+2023-10-07 22:30:25,068 - INFO - Finished model prediction
+2023-10-07 22:30:25,132 - INFO - Finished Model Process
+2023-10-07 22:30:25,133 - INFO - [['76ea7c84-6d3d-454a-8827-cf41da09ccfe', 'uploads/original\\76ea7c84-6d3d-454a-8827-cf41da09ccfe.jpg'], ['366d3d03-ed13-45bf-80ee-f68dbaa49fd7', 'uploads/original\\366d3d03-ed13-45bf-80ee-f68dbaa49fd7.jpg'], ['4ab9a606-c818-488d-9cd0-7473af242fe2', 'uploads/original\\4ab9a606-c818-488d-9cd0-7473af242fe2.jpg']]
+2023-10-07 22:30:25,133 - INFO - [['76ea7c84-6d3d-454a-8827-cf41da09ccfe', 'uploads/generated/76ea7c84-6d3d-454a-8827-cf41da09ccfe.jpg'], ['366d3d03-ed13-45bf-80ee-f68dbaa49fd7', 'uploads/generated/366d3d03-ed13-45bf-80ee-f68dbaa49fd7.jpg'], ['4ab9a606-c818-488d-9cd0-7473af242fe2', 'uploads/generated/4ab9a606-c818-488d-9cd0-7473af242fe2.jpg']]
+2023-10-07 22:30:25,134 - INFO - Uploading image to database
+2023-10-07 22:30:26,494 - INFO - Database update successful
+2023-10-07 22:30:26,497 - INFO - 127.0.0.1 - - [07/Oct/2023 22:30:26] "POST /upload HTTP/1.1" 200 -
+2023-10-07 22:30:28,866 - INFO - 127.0.0.1 - - [07/Oct/2023 22:30:28] "[33mGET /76ea7c84-6d3d-454a-8827-cf41da09ccfe,uploads/generated/76ea7c84-6d3d-454a-8827-cf41da09ccfe.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:30:28,912 - INFO - 127.0.0.1 - - [07/Oct/2023 22:30:28] "[33mGET /366d3d03-ed13-45bf-80ee-f68dbaa49fd7,uploads/generated/366d3d03-ed13-45bf-80ee-f68dbaa49fd7.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:30:28,916 - INFO - 127.0.0.1 - - [07/Oct/2023 22:30:28] "[33mGET /4ab9a606-c818-488d-9cd0-7473af242fe2,uploads/generated/4ab9a606-c818-488d-9cd0-7473af242fe2.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:42:43,303 - INFO - 127.0.0.1 - - [07/Oct/2023 22:42:43] "[33mGET /76ea7c84-6d3d-454a-8827-cf41da09ccfe,uploads/generated/76ea7c84-6d3d-454a-8827-cf41da09ccfe.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:42:43,313 - INFO - 127.0.0.1 - - [07/Oct/2023 22:42:43] "[33mGET /366d3d03-ed13-45bf-80ee-f68dbaa49fd7,uploads/generated/366d3d03-ed13-45bf-80ee-f68dbaa49fd7.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:42:43,318 - INFO - 127.0.0.1 - - [07/Oct/2023 22:42:43] "[33mGET /4ab9a606-c818-488d-9cd0-7473af242fe2,uploads/generated/4ab9a606-c818-488d-9cd0-7473af242fe2.jpg.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:44:47,296 - INFO - Image 60578.jpg saved to uploads/original\035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg
+2023-10-07 22:44:47,297 - INFO - Image 74737.jpg saved to uploads/original\9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg
+2023-10-07 22:44:47,298 - INFO - Image 428356.jpg saved to uploads/original\e672e120-2c44-421b-8146-a9e2f9435a80.jpg
+2023-10-07 22:44:47,372 - INFO - Classification class initialization successful
+2023-10-07 22:44:47,372 - INFO - caller function initiated
+2023-10-07 22:44:50,402 - INFO - Finished model prediction
+2023-10-07 22:44:50,473 - INFO - Finished Model Process
+2023-10-07 22:44:50,475 - INFO - [['035f82ce-0477-4e2d-9611-cd460a0bb7ec', 'uploads/original\\035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg'], ['9ec304a3-7082-4706-9e5d-847f5fd65eeb', 'uploads/original\\9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg'], ['e672e120-2c44-421b-8146-a9e2f9435a80', 'uploads/original\\e672e120-2c44-421b-8146-a9e2f9435a80.jpg']]
+2023-10-07 22:44:50,475 - INFO - [['035f82ce-0477-4e2d-9611-cd460a0bb7ec', 'uploads/generated/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg'], ['9ec304a3-7082-4706-9e5d-847f5fd65eeb', 'uploads/generated/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg'], ['e672e120-2c44-421b-8146-a9e2f9435a80', 'uploads/generated/e672e120-2c44-421b-8146-a9e2f9435a80.jpg']]
+2023-10-07 22:44:50,475 - INFO - Uploading image to database
+2023-10-07 22:44:51,617 - INFO - Database update successful
+2023-10-07 22:44:51,622 - INFO - 127.0.0.1 - - [07/Oct/2023 22:44:51] "POST /upload HTTP/1.1" 200 -
+2023-10-07 22:44:52,470 - INFO - 127.0.0.1 - - [07/Oct/2023 22:44:52] "[33mGET /035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:44:52,471 - INFO - 127.0.0.1 - - [07/Oct/2023 22:44:52] "[33mGET /9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:44:52,475 - INFO - 127.0.0.1 - - [07/Oct/2023 22:44:52] "[33mGET /e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:45:24,763 - INFO - 127.0.0.1 - - [07/Oct/2023 22:45:24] "[33mGET /035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1[0m" 404 -
+2023-10-07 22:45:48,516 - INFO - 127.0.0.1 - - [07/Oct/2023 22:45:48] "GET /generated/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1" 200 -
+2023-10-07 22:45:48,820 - INFO - 127.0.0.1 - - [07/Oct/2023 22:45:48] "GET /generated/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1" 200 -
+2023-10-07 22:45:48,826 - INFO - 127.0.0.1 - - [07/Oct/2023 22:45:48] "GET /generated/e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1" 200 -
+2023-10-07 22:51:31,639 - INFO - 127.0.0.1 - - [07/Oct/2023 22:51:31] "[36mGET /generated/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1[0m" 304 -
+2023-10-07 22:51:31,639 - INFO - 127.0.0.1 - - [07/Oct/2023 22:51:31] "[36mGET /generated/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1[0m" 304 -
+2023-10-07 22:51:31,646 - INFO - 127.0.0.1 - - [07/Oct/2023 22:51:31] "[36mGET /generated/e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1[0m" 304 -
+2023-10-07 22:58:10,331 - INFO - 127.0.0.1 - - [07/Oct/2023 22:58:10] "[36mGET /generated/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1[0m" 304 -
+2023-10-07 22:58:10,333 - INFO - 127.0.0.1 - - [07/Oct/2023 22:58:10] "[36mGET /generated/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1[0m" 304 -
+2023-10-07 22:58:10,336 - INFO - 127.0.0.1 - - [07/Oct/2023 22:58:10] "[36mGET /generated/e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1[0m" 304 -
+2023-10-07 23:03:51,551 - INFO - 127.0.0.1 - - [07/Oct/2023 23:03:51] "[36mGET /generated/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1[0m" 304 -
+2023-10-07 23:03:51,553 - INFO - 127.0.0.1 - - [07/Oct/2023 23:03:51] "[36mGET /generated/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1[0m" 304 -
+2023-10-07 23:03:51,553 - INFO - 127.0.0.1 - - [07/Oct/2023 23:03:51] "[36mGET /generated/e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1[0m" 304 -
+2023-10-07 23:07:17,533 - INFO - 127.0.0.1 - - [07/Oct/2023 23:07:17] "GET /uploads/9ec304a3-7082-4706-9e5d-847f5fd65eeb.jpg HTTP/1.1" 200 -
+2023-10-07 23:07:17,533 - INFO - 127.0.0.1 - - [07/Oct/2023 23:07:17] "GET /uploads/035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg HTTP/1.1" 200 -
+2023-10-07 23:07:17,540 - INFO - 127.0.0.1 - - [07/Oct/2023 23:07:17] "GET /uploads/e672e120-2c44-421b-8146-a9e2f9435a80.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:06,225 - INFO - Image 035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg saved to uploads/original\997ccdd7-eba5-4031-9381-1ae5787beee9.jpg
+2023-10-07 23:12:06,227 - INFO - Image 60578.jpg saved to uploads/original\6fe208e9-2583-4634-9f78-5a9d33bc479d.jpg
+2023-10-07 23:12:06,227 - INFO - Image 74737.jpg saved to uploads/original\591e5c67-d34a-4c64-bd22-87d5a9cf717b.jpg
+2023-10-07 23:12:06,296 - INFO - Classification class initialization successful
+2023-10-07 23:12:06,296 - INFO - caller function initiated
+2023-10-07 23:12:08,269 - INFO - Finished model prediction
+2023-10-07 23:12:08,303 - INFO - Finished Model Process
+2023-10-07 23:12:08,304 - INFO - [['997ccdd7-eba5-4031-9381-1ae5787beee9', 'uploads/original\\997ccdd7-eba5-4031-9381-1ae5787beee9.jpg'], ['6fe208e9-2583-4634-9f78-5a9d33bc479d', 'uploads/original\\6fe208e9-2583-4634-9f78-5a9d33bc479d.jpg'], ['591e5c67-d34a-4c64-bd22-87d5a9cf717b', 'uploads/original\\591e5c67-d34a-4c64-bd22-87d5a9cf717b.jpg']]
+2023-10-07 23:12:08,304 - INFO - [['997ccdd7-eba5-4031-9381-1ae5787beee9', 'uploads/generated/997ccdd7-eba5-4031-9381-1ae5787beee9.jpg'], ['6fe208e9-2583-4634-9f78-5a9d33bc479d', 'uploads/generated/6fe208e9-2583-4634-9f78-5a9d33bc479d.jpg'], ['591e5c67-d34a-4c64-bd22-87d5a9cf717b', 'uploads/generated/591e5c67-d34a-4c64-bd22-87d5a9cf717b.jpg']]
+2023-10-07 23:12:08,304 - INFO - Uploading image to database
+2023-10-07 23:12:08,474 - INFO - Database update successful
+2023-10-07 23:12:08,477 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:08] "POST /upload HTTP/1.1" 200 -
+2023-10-07 23:12:51,926 - INFO - Image 035f82ce-0477-4e2d-9611-cd460a0bb7ec.jpg saved to uploads/original\830c1c70-54c3-4e9f-b968-e2bd594064fa.jpg
+2023-10-07 23:12:51,928 - INFO - Image 60578.jpg saved to uploads/original\447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53.jpg
+2023-10-07 23:12:51,928 - INFO - Image 74737.jpg saved to uploads/original\a210e725-58b3-42b4-aae5-ded5a32e00c0.jpg
+2023-10-07 23:12:52,294 - INFO - Classification class initialization successful
+2023-10-07 23:12:52,294 - INFO - caller function initiated
+2023-10-07 23:12:54,097 - INFO - Finished model prediction
+2023-10-07 23:12:54,132 - INFO - Finished Model Process
+2023-10-07 23:12:54,134 - INFO - [['830c1c70-54c3-4e9f-b968-e2bd594064fa', 'uploads/original\\830c1c70-54c3-4e9f-b968-e2bd594064fa.jpg'], ['447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53', 'uploads/original\\447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53.jpg'], ['a210e725-58b3-42b4-aae5-ded5a32e00c0', 'uploads/original\\a210e725-58b3-42b4-aae5-ded5a32e00c0.jpg']]
+2023-10-07 23:12:54,134 - INFO - [['830c1c70-54c3-4e9f-b968-e2bd594064fa', 'uploads/generated/830c1c70-54c3-4e9f-b968-e2bd594064fa.jpg'], ['447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53', 'uploads/generated/447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53.jpg'], ['a210e725-58b3-42b4-aae5-ded5a32e00c0', 'uploads/generated/a210e725-58b3-42b4-aae5-ded5a32e00c0.jpg']]
+2023-10-07 23:12:54,134 - INFO - Uploading image to database
+2023-10-07 23:12:54,302 - INFO - Database update successful
+2023-10-07 23:12:54,303 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "POST /upload HTTP/1.1" 200 -
+2023-10-07 23:12:54,712 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /uploads/830c1c70-54c3-4e9f-b968-e2bd594064fa.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:54,714 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /uploads/447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:54,715 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /uploads/a210e725-58b3-42b4-aae5-ded5a32e00c0.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:54,728 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /generated/830c1c70-54c3-4e9f-b968-e2bd594064fa.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:54,730 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /generated/447d22fb-7a9d-4bf1-8a4a-9ea9fcb41f53.jpg HTTP/1.1" 200 -
+2023-10-07 23:12:54,731 - INFO - 127.0.0.1 - - [07/Oct/2023 23:12:54] "GET /generated/a210e725-58b3-42b4-aae5-ded5a32e00c0.jpg HTTP/1.1" 200 -
+2023-10-07 23:55:12,862 - INFO - Checking login credentials
+2023-10-07 23:55:13,027 - INFO - Login credentials verified
+2023-10-07 23:55:13,027 - INFO - 127.0.0.1 - - [07/Oct/2023 23:55:13] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:55:13,135 - INFO - Checking login credentials
+2023-10-07 23:55:13,442 - INFO - Checking login credentials
+2023-10-07 23:55:13,707 - INFO - Login credentials verified
+2023-10-07 23:55:13,707 - INFO - 127.0.0.1 - - [07/Oct/2023 23:55:13] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:55:15,494 - INFO - Login credentials verified
+2023-10-07 23:55:15,495 - INFO - 127.0.0.1 - - [07/Oct/2023 23:55:15] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:55:58,814 - INFO - Image 4K-OLED-Desktop-Background-768x432.jpg saved to uploads/original\61ce6622-1469-4f05-bbc6-c331fa50e82e.jpg
+2023-10-07 23:55:58,815 - INFO - Image ninja.jpg saved to uploads/original\2c208946-2c00-4c1f-b433-dc56e85972e4.jpg
+2023-10-07 23:55:58,816 - INFO - Image R9VXydV-batman-wallpaper-1920x1080.jpg saved to uploads/original\990e6775-63a6-4b5c-b2d8-0e03aca3bd6c.jpg
+2023-10-07 23:55:58,818 - INFO - Image scenary.jpg saved to uploads/original\e526a796-5a66-4252-b1d8-196a06dbc0fd.jpg
+2023-10-07 23:55:58,847 - INFO - Classification class initialization successful
+2023-10-07 23:55:58,847 - INFO - caller function initiated
+2023-10-07 23:56:00,970 - INFO - Finished model prediction
+2023-10-07 23:56:01,016 - INFO - Finished Model Process
+2023-10-07 23:56:01,017 - INFO - [['61ce6622-1469-4f05-bbc6-c331fa50e82e', 'uploads/original\\61ce6622-1469-4f05-bbc6-c331fa50e82e.jpg'], ['2c208946-2c00-4c1f-b433-dc56e85972e4', 'uploads/original\\2c208946-2c00-4c1f-b433-dc56e85972e4.jpg'], ['990e6775-63a6-4b5c-b2d8-0e03aca3bd6c', 'uploads/original\\990e6775-63a6-4b5c-b2d8-0e03aca3bd6c.jpg'], ['e526a796-5a66-4252-b1d8-196a06dbc0fd', 'uploads/original\\e526a796-5a66-4252-b1d8-196a06dbc0fd.jpg']]
+2023-10-07 23:56:01,017 - INFO - [['61ce6622-1469-4f05-bbc6-c331fa50e82e', 'uploads/generated/61ce6622-1469-4f05-bbc6-c331fa50e82e.jpg'], ['2c208946-2c00-4c1f-b433-dc56e85972e4', 'uploads/generated/2c208946-2c00-4c1f-b433-dc56e85972e4.jpg'], ['990e6775-63a6-4b5c-b2d8-0e03aca3bd6c', 'uploads/generated/990e6775-63a6-4b5c-b2d8-0e03aca3bd6c.jpg'], ['e526a796-5a66-4252-b1d8-196a06dbc0fd', 'uploads/generated/e526a796-5a66-4252-b1d8-196a06dbc0fd.jpg']]
+2023-10-07 23:56:01,017 - INFO - Uploading image to database
+2023-10-07 23:56:01,236 - INFO - Database update successful
+2023-10-07 23:56:01,239 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "POST /upload HTTP/1.1" 200 -
+2023-10-07 23:56:01,709 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /uploads/61ce6622-1469-4f05-bbc6-c331fa50e82e.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:01,712 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /uploads/2c208946-2c00-4c1f-b433-dc56e85972e4.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:01,713 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /uploads/990e6775-63a6-4b5c-b2d8-0e03aca3bd6c.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:01,714 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /uploads/e526a796-5a66-4252-b1d8-196a06dbc0fd.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:01,728 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /generated/61ce6622-1469-4f05-bbc6-c331fa50e82e.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:01,730 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:01] "GET /generated/2c208946-2c00-4c1f-b433-dc56e85972e4.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:02,038 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:02] "GET /generated/990e6775-63a6-4b5c-b2d8-0e03aca3bd6c.jpg HTTP/1.1" 200 -
+2023-10-07 23:56:02,047 - INFO - 127.0.0.1 - - [07/Oct/2023 23:56:02] "GET /generated/e526a796-5a66-4252-b1d8-196a06dbc0fd.jpg HTTP/1.1" 200 -
+2023-10-07 23:58:46,703 - INFO - Checking login credentials
+2023-10-07 23:58:46,882 - INFO - Login credentials verified
+2023-10-07 23:58:46,882 - INFO - 127.0.0.1 - - [07/Oct/2023 23:58:46] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:58:46,968 - INFO - Checking login credentials
+2023-10-07 23:58:47,146 - INFO - Login credentials verified
+2023-10-07 23:58:47,146 - INFO - 127.0.0.1 - - [07/Oct/2023 23:58:47] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:58:47,263 - INFO - Checking login credentials
+2023-10-07 23:58:47,442 - INFO - Login credentials verified
+2023-10-07 23:58:47,442 - INFO - 127.0.0.1 - - [07/Oct/2023 23:58:47] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:59:36,645 - INFO - Checking login credentials
+2023-10-07 23:59:36,823 - INFO - Login credentials verified
+2023-10-07 23:59:36,824 - INFO - 127.0.0.1 - - [07/Oct/2023 23:59:36] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:59:36,956 - INFO - Checking login credentials
+2023-10-07 23:59:37,136 - INFO - Login credentials verified
+2023-10-07 23:59:37,136 - INFO - 127.0.0.1 - - [07/Oct/2023 23:59:37] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:59:39,849 - INFO - Checking login credentials
+2023-10-07 23:59:39,865 - INFO - Checking login credentials
+2023-10-07 23:59:40,026 - INFO - Login credentials verified
+2023-10-07 23:59:40,027 - INFO - 127.0.0.1 - - [07/Oct/2023 23:59:40] "POST /login HTTP/1.1" 200 -
+2023-10-07 23:59:40,028 - INFO - Login credentials verified
+2023-10-07 23:59:40,028 - INFO - 127.0.0.1 - - [07/Oct/2023 23:59:40] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:03:53,883 - INFO - Checking login credentials
+2023-10-08 00:03:53,899 - INFO - Checking login credentials
+2023-10-08 00:03:54,061 - INFO - Login credentials verified
+2023-10-08 00:03:54,062 - INFO - 127.0.0.1 - - [08/Oct/2023 00:03:54] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:03:54,063 - INFO - Login credentials verified
+2023-10-08 00:03:54,063 - INFO - 127.0.0.1 - - [08/Oct/2023 00:03:54] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:14:40,455 - INFO - Checking login credentials
+2023-10-08 00:14:40,634 - INFO - Login credentials verification failed
+2023-10-08 00:14:40,635 - INFO - 127.0.0.1 - - [08/Oct/2023 00:14:40] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:14:48,989 - INFO - Checking login credentials
+2023-10-08 00:14:49,168 - INFO - Login credentials verified
+2023-10-08 00:14:49,168 - INFO - 127.0.0.1 - - [08/Oct/2023 00:14:49] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:14:49,560 - INFO - Checking login credentials
+2023-10-08 00:14:49,563 - INFO - Checking login credentials
+2023-10-08 00:14:49,726 - INFO - Login credentials verified
+2023-10-08 00:14:49,727 - INFO - 127.0.0.1 - - [08/Oct/2023 00:14:49] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:14:49,739 - INFO - Login credentials verified
+2023-10-08 00:14:49,739 - INFO - 127.0.0.1 - - [08/Oct/2023 00:14:49] "POST /login HTTP/1.1" 200 -
+2023-10-08 00:15:36,002 - INFO - Image 60578.jpg saved to uploads/original\00e4c5b3-f402-4d5a-8b65-4c9c063173e2.jpg
+2023-10-08 00:15:36,003 - INFO - Image Diamondhead.png saved to uploads/original\76061264-3b9c-4e54-b466-7bdbb61bc0b5.jpg
+2023-10-08 00:15:36,005 - INFO - Image fire.jpg saved to uploads/original\799a2672-e785-48ad-8c97-d90e086a9c33.jpg
+2023-10-08 00:15:36,046 - INFO - Classification class initialization successful
+2023-10-08 00:15:36,046 - INFO - caller function initiated
+2023-10-08 00:15:38,034 - INFO - Finished model prediction
+2023-10-08 00:15:38,071 - INFO - Finished Model Process
+2023-10-08 00:15:38,072 - INFO - [['00e4c5b3-f402-4d5a-8b65-4c9c063173e2', 'uploads/original\\00e4c5b3-f402-4d5a-8b65-4c9c063173e2.jpg'], ['76061264-3b9c-4e54-b466-7bdbb61bc0b5', 'uploads/original\\76061264-3b9c-4e54-b466-7bdbb61bc0b5.jpg'], ['799a2672-e785-48ad-8c97-d90e086a9c33', 'uploads/original\\799a2672-e785-48ad-8c97-d90e086a9c33.jpg']]
+2023-10-08 00:15:38,072 - INFO - [['00e4c5b3-f402-4d5a-8b65-4c9c063173e2', 'uploads/generated/00e4c5b3-f402-4d5a-8b65-4c9c063173e2.jpg'], ['76061264-3b9c-4e54-b466-7bdbb61bc0b5', 'uploads/generated/76061264-3b9c-4e54-b466-7bdbb61bc0b5.jpg'], ['799a2672-e785-48ad-8c97-d90e086a9c33', 'uploads/generated/799a2672-e785-48ad-8c97-d90e086a9c33.jpg']]
+2023-10-08 00:15:38,073 - INFO - Uploading image to database
+2023-10-08 00:15:38,258 - INFO - Database update successful
+2023-10-08 00:15:38,261 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "POST /upload HTTP/1.1" 200 -
+2023-10-08 00:15:38,807 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /uploads/00e4c5b3-f402-4d5a-8b65-4c9c063173e2.jpg HTTP/1.1" 200 -
+2023-10-08 00:15:38,807 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /uploads/799a2672-e785-48ad-8c97-d90e086a9c33.jpg HTTP/1.1" 200 -
+2023-10-08 00:15:38,807 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /uploads/76061264-3b9c-4e54-b466-7bdbb61bc0b5.jpg HTTP/1.1" 200 -
+2023-10-08 00:15:38,818 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /generated/00e4c5b3-f402-4d5a-8b65-4c9c063173e2.jpg HTTP/1.1" 200 -
+2023-10-08 00:15:38,821 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /generated/76061264-3b9c-4e54-b466-7bdbb61bc0b5.jpg HTTP/1.1" 200 -
+2023-10-08 00:15:38,823 - INFO - 127.0.0.1 - - [08/Oct/2023 00:15:38] "GET /generated/799a2672-e785-48ad-8c97-d90e086a9c33.jpg HTTP/1.1" 200 -
