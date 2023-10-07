@@ -30,20 +30,25 @@ const SignIn = () => {
         formData.append('username', credentials.username);
         formData.append('password', credentials.password);
 
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
-            method: 'POST',
-            body: formData
-        });
-        const data = await res.json()
+        try {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+                method: 'POST',
+                body: formData
+            });
+            const data = await res.json()
 
-        if (data.status === 'success') {
-            toast.success('Logged in successfully');
-            localStorage.setItem('username', credentials.username);
-            localStorage.setItem('password', credentials.password);
-            router.push('/');
-        } else {
-            toast.error('Something went wrong');
+            if (data.status === 'success') {
+                toast.success('Logged in successfully');
+                localStorage.setItem('username', credentials.username);
+                localStorage.setItem('password', credentials.password);
+                router.push('/');
+            } else {
+                toast.error('Something went wrong');
+            }
+        } catch (error: any) {
+            toast.error(error.message);
         }
+
         setCredentials({ username: '', password: '' })
     }
 
