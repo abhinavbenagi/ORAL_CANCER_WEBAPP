@@ -1,0 +1,84 @@
+2023-10-07 00:32:47,391 - INFO - Initiating database connection
+2023-10-07 00:32:48,454 - INFO - Database connection successful
+2023-10-07 00:34:07,165 - INFO - Initiating database connection
+2023-10-07 00:34:08,135 - INFO - Database connection successful
+2023-10-07 00:41:17,948 - INFO - Initiating database connection
+2023-10-07 00:41:19,507 - INFO - Database connection successful
+2023-10-07 00:41:19,561 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-07 00:41:19,561 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-07 00:41:19,564 - INFO -  * Restarting with stat
+2023-10-07 00:41:23,986 - INFO - Initiating database connection
+2023-10-07 00:41:24,955 - INFO - Database connection successful
+2023-10-07 00:41:24,966 - WARNING -  * Debugger is active!
+2023-10-07 00:41:24,969 - INFO -  * Debugger PIN: 767-948-024
+2023-10-07 00:42:33,646 - INFO - 127.0.0.1 - - [07/Oct/2023 00:42:33] "[33mGET / HTTP/1.1[0m" 404 -
+2023-10-07 00:42:33,771 - INFO - 127.0.0.1 - - [07/Oct/2023 00:42:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-07 00:43:42,506 - INFO - 127.0.0.1 - - [07/Oct/2023 00:43:42] "[33mGET / HTTP/1.1[0m" 404 -
+2023-10-07 00:43:42,624 - INFO - 127.0.0.1 - - [07/Oct/2023 00:43:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-07 00:44:18,829 - INFO - 127.0.0.1 - - [07/Oct/2023 00:44:18] "[31m[1mGET /signup HTTP/1.1[0m" 405 -
+2023-10-07 11:08:45,880 - INFO - 127.0.0.1 - - [07/Oct/2023 11:08:45] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-07 11:09:12,651 - INFO - 127.0.0.1 - - [07/Oct/2023 11:09:12] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-07 11:10:05,676 - INFO - Inserting sign up data
+2023-10-07 11:10:05,856 - INFO - Sign up data inserted
+2023-10-07 11:10:05,857 - INFO - 127.0.0.1 - - [07/Oct/2023 11:10:05] "POST /signup HTTP/1.1" 200 -
+2023-10-07 11:10:46,074 - INFO - Initiating database connection
+2023-10-07 11:10:47,049 - INFO - Database connection successful
+2023-10-07 11:10:47,093 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-07 11:10:47,093 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-07 11:10:47,096 - INFO -  * Restarting with stat
+2023-10-07 11:10:56,017 - INFO - Initiating database connection
+2023-10-07 11:10:57,000 - INFO - Database connection successful
+2023-10-07 11:10:57,022 - WARNING -  * Debugger is active!
+2023-10-07 11:10:57,028 - INFO -  * Debugger PIN: 767-948-024
+2023-10-07 13:42:19,669 - INFO - 127.0.0.1 - - [07/Oct/2023 13:42:19] "OPTIONS /signup HTTP/1.1" 200 -
+2023-10-07 13:46:17,295 - INFO -  * Detected change in 'D:\\internships\\ORAL_CANCER_WEBAPP\\backend\\app.py', reloading
+2023-10-07 13:46:19,392 - INFO -  * Restarting with stat
+2023-10-07 13:47:50,089 - INFO - Initiating database connection
+2023-10-07 13:47:51,246 - INFO - Database connection successful
+2023-10-07 13:47:51,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-07 13:47:51,278 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-07 13:47:51,282 - INFO -  * Restarting with stat
+2023-10-07 13:47:59,742 - INFO - Initiating database connection
+2023-10-07 13:48:00,908 - INFO - Database connection successful
+2023-10-07 13:48:00,934 - WARNING -  * Debugger is active!
+2023-10-07 13:48:00,939 - INFO -  * Debugger PIN: 767-948-024
+2023-10-07 13:48:26,566 - INFO - 127.0.0.1 - - [07/Oct/2023 13:48:26] "OPTIONS /signup HTTP/1.1" 200 -
+2023-10-07 13:48:26,889 - INFO - 127.0.0.1 - - [07/Oct/2023 13:48:26] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-07 14:02:56,057 - INFO - User Already Exists! Choose another username!
+2023-10-07 14:02:56,058 - INFO - 127.0.0.1 - - [07/Oct/2023 14:02:56] "POST /signup HTTP/1.1" 200 -
+2023-10-07 15:19:02,363 - INFO - User Already Exists! Choose another username!
+2023-10-07 15:19:02,365 - INFO - 127.0.0.1 - - [07/Oct/2023 15:19:02] "POST /signup HTTP/1.1" 200 -
+2023-10-07 15:27:21,627 - INFO - Checking login credentials
+2023-10-07 15:27:22,220 - INFO - Login credentials verified
+2023-10-07 15:27:22,221 - INFO - 127.0.0.1 - - [07/Oct/2023 15:27:22] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:27:56,846 - INFO - Checking login credentials
+2023-10-07 15:27:57,027 - INFO - Login credentials verification failed
+2023-10-07 15:27:57,029 - INFO - 127.0.0.1 - - [07/Oct/2023 15:27:57] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:28:14,082 - INFO - Checking login credentials
+2023-10-07 15:28:14,263 - INFO - Login credentials verification failed
+2023-10-07 15:28:14,264 - INFO - 127.0.0.1 - - [07/Oct/2023 15:28:14] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:28:33,631 - INFO - Checking login credentials
+2023-10-07 15:28:34,156 - INFO - Login credentials verified
+2023-10-07 15:28:34,157 - INFO - 127.0.0.1 - - [07/Oct/2023 15:28:34] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:28:38,689 - INFO - Checking login credentials
+2023-10-07 15:28:38,869 - ERROR - Login credentials verification failed
+2023-10-07 15:28:38,871 - INFO - 127.0.0.1 - - [07/Oct/2023 15:28:38] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:30:00,218 - INFO - Checking login credentials
+2023-10-07 15:30:00,398 - ERROR - Login credentials verification failed
+2023-10-07 15:30:00,399 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:00] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:30:22,113 - INFO - Checking login credentials
+2023-10-07 15:30:22,294 - INFO - Login credentials verification failed
+2023-10-07 15:30:22,294 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:22] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:30:34,474 - INFO - User Already Exists! Choose another username!
+2023-10-07 15:30:34,475 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:34] "POST /signup HTTP/1.1" 200 -
+2023-10-07 15:30:43,284 - INFO - User Already Exists! Choose another username!
+2023-10-07 15:30:43,285 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:43] "POST /signup HTTP/1.1" 200 -
+2023-10-07 15:30:48,878 - INFO - Checking login credentials
+2023-10-07 15:30:49,058 - INFO - Login credentials verification failed
+2023-10-07 15:30:49,059 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:49] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:30:58,362 - INFO - Checking login credentials
+2023-10-07 15:30:58,549 - INFO - Login credentials verified
+2023-10-07 15:30:58,550 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:58] "POST /login HTTP/1.1" 200 -
