@@ -1,8 +1,8 @@
 import { createContext } from "react";
 
 const resultContext = createContext({
-    images: {},
-    setImages: (images: any) => {},
+    images: { original: [], generated: [] },
+    setImages: (images: any) => { },
 });
 
 export default resultContext;
