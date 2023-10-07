@@ -82,3 +82,125 @@
 2023-10-07 15:30:58,362 - INFO - Checking login credentials
 2023-10-07 15:30:58,549 - INFO - Login credentials verified
 2023-10-07 15:30:58,550 - INFO - 127.0.0.1 - - [07/Oct/2023 15:30:58] "POST /login HTTP/1.1" 200 -
+2023-10-07 15:45:31,266 - INFO - Inserting sign up data
+2023-10-07 15:45:31,453 - INFO - Sign up data inserted
+2023-10-07 15:45:31,454 - INFO - 127.0.0.1 - - [07/Oct/2023 15:45:31] "POST /signup HTTP/1.1" 200 -
+2023-10-07 15:50:18,479 - INFO - 127.0.0.1 - - [07/Oct/2023 15:50:18] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-10-07 15:51:16,510 - INFO - 127.0.0.1 - - [07/Oct/2023 15:51:16] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-10-07 15:51:25,219 - INFO - 127.0.0.1 - - [07/Oct/2023 15:51:25] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-10-07 15:55:39,170 - INFO - Image 60578.jpg saved to uploads/original\e4dd0c1b-3b70-4a54-94c6-fa78022a91cc.jpg
+2023-10-07 15:55:42,680 - INFO - Classification class initialization successful
+2023-10-07 15:55:42,681 - INFO - caller function initiated
+2023-10-07 15:55:46,293 - INFO - Finished model prediction
+2023-10-07 15:55:46,309 - INFO - Finished Model Process
+2023-10-07 15:55:46,310 - INFO - [['e4dd0c1b-3b70-4a54-94c6-fa78022a91cc', 'uploads/original\\e4dd0c1b-3b70-4a54-94c6-fa78022a91cc.jpg']]
+2023-10-07 15:55:46,310 - INFO - [['e4dd0c1b-3b70-4a54-94c6-fa78022a91cc', 'uploads/generated/e4dd0c1b-3b70-4a54-94c6-fa78022a91cc.jpg']]
+2023-10-07 15:55:46,310 - INFO - Uploading image to database
+2023-10-07 15:55:46,502 - INFO - Database update successful
+2023-10-07 15:55:46,504 - INFO - 127.0.0.1 - - [07/Oct/2023 15:55:46] "POST /upload HTTP/1.1" 200 -
+2023-10-07 15:58:01,177 - INFO - Image test_image.jpg saved to uploads/original\7785d30c-b9a0-446b-94d3-8e723abf2c0c.jpg
+2023-10-07 15:58:01,212 - INFO - Classification class initialization successful
+2023-10-07 15:58:01,212 - INFO - caller function initiated
+2023-10-07 15:58:03,116 - INFO - Finished model prediction
+2023-10-07 15:58:03,173 - INFO - Finished Model Process
+2023-10-07 15:58:03,178 - INFO - [['7785d30c-b9a0-446b-94d3-8e723abf2c0c', 'uploads/original\\7785d30c-b9a0-446b-94d3-8e723abf2c0c.jpg']]
+2023-10-07 15:58:03,178 - INFO - [['7785d30c-b9a0-446b-94d3-8e723abf2c0c', 'uploads/generated/7785d30c-b9a0-446b-94d3-8e723abf2c0c.jpg']]
+2023-10-07 15:58:03,178 - INFO - Uploading image to database
+2023-10-07 15:58:03,625 - INFO - Database update successful
+2023-10-07 15:58:03,629 - INFO - 127.0.0.1 - - [07/Oct/2023 15:58:03] "POST /upload HTTP/1.1" 200 -
+2023-10-07 16:01:03,976 - INFO - Initiating database connection
+2023-10-07 16:01:05,264 - INFO - Database connection successful
+2023-10-07 16:01:05,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-07 16:01:05,295 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-07 16:01:05,297 - INFO -  * Restarting with stat
+2023-10-07 16:01:10,086 - INFO - Initiating database connection
+2023-10-07 16:01:11,120 - INFO - Database connection successful
+2023-10-07 16:01:11,142 - WARNING -  * Debugger is active!
+2023-10-07 16:01:11,147 - INFO -  * Debugger PIN: 595-957-525
+2023-10-07 18:06:26,760 - INFO - Image test_image.jpg saved to uploads/original\9a1c6c0e-95e2-4ac2-80e8-aad22a3fa6df.jpg
+2023-10-07 18:06:27,051 - INFO - Classification class initialization successful
+2023-10-07 18:06:27,051 - INFO - caller function initiated
+2023-10-07 18:06:33,430 - INFO - Finished model prediction
+2023-10-07 18:06:33,526 - INFO - Finished Model Process
+2023-10-07 18:06:33,532 - INFO - [['9a1c6c0e-95e2-4ac2-80e8-aad22a3fa6df', 'uploads/original\\9a1c6c0e-95e2-4ac2-80e8-aad22a3fa6df.jpg']]
+2023-10-07 18:06:33,532 - INFO - [['9a1c6c0e-95e2-4ac2-80e8-aad22a3fa6df', 'uploads/generated/9a1c6c0e-95e2-4ac2-80e8-aad22a3fa6df.jpg']]
+2023-10-07 18:06:33,532 - INFO - Uploading image to database
+2023-10-07 18:06:34,776 - INFO - Database update successful
+2023-10-07 18:06:34,782 - INFO - 127.0.0.1 - - [07/Oct/2023 18:06:34] "POST /upload HTTP/1.1" 200 -
+2023-10-07 18:44:08,089 - INFO -  * Detected change in 'D:\\internships\\ORAL_CANCER_WEBAPP\\backend\\app.py', reloading
+2023-10-07 18:44:10,164 - INFO -  * Restarting with stat
+2023-10-07 18:44:19,167 - INFO - Initiating database connection
+2023-10-07 18:44:20,365 - INFO - Database connection successful
+2023-10-07 18:44:20,396 - WARNING -  * Debugger is active!
+2023-10-07 18:44:20,401 - INFO -  * Debugger PIN: 595-957-525
+2023-10-07 18:45:46,642 - INFO - Image test_image.jpg saved to uploads/original\efb4a964-be46-4b4f-95a8-f4371178dff1.jpg
+2023-10-07 18:45:46,709 - INFO - Classification class initialization successful
+2023-10-07 18:45:46,709 - INFO - caller function initiated
+2023-10-07 18:45:50,062 - INFO - Finished model prediction
+2023-10-07 18:45:50,154 - INFO - Finished Model Process
+2023-10-07 18:45:50,161 - INFO - [['efb4a964-be46-4b4f-95a8-f4371178dff1', 'uploads/original\\efb4a964-be46-4b4f-95a8-f4371178dff1.jpg']]
+2023-10-07 18:45:50,161 - INFO - [['efb4a964-be46-4b4f-95a8-f4371178dff1', 'uploads/generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg']]
+2023-10-07 18:45:50,161 - INFO - Uploading image to database
+2023-10-07 18:45:50,320 - INFO - Database update successful
+2023-10-07 18:45:50,326 - INFO - 127.0.0.1 - - [07/Oct/2023 18:45:50] "POST /upload HTTP/1.1" 200 -
+2023-10-07 18:49:33,560 - INFO - 127.0.0.1 - - [07/Oct/2023 18:49:33] "[31m[1mPOST /generated/efb4a964-be46-4b4f-95a8-f4371178dff1 HTTP/1.1[0m" 405 -
+2023-10-07 18:49:40,120 - INFO - 127.0.0.1 - - [07/Oct/2023 18:49:40] "[35m[1mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1 HTTP/1.1[0m" 500 -
+2023-10-07 18:49:45,637 - INFO - 127.0.0.1 - - [07/Oct/2023 18:49:45] "[35m[1mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 500 -
+2023-10-07 18:50:41,927 - INFO - 127.0.0.1 - - [07/Oct/2023 18:50:41] "[33mGET /uploaded/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 404 -
+2023-10-07 18:50:52,736 - INFO - 127.0.0.1 - - [07/Oct/2023 18:50:52] "[35m[1mGET /uploads/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 500 -
+2023-10-07 18:51:39,885 - INFO - 127.0.0.1 - - [07/Oct/2023 18:51:39] "[35m[1mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1 HTTP/1.1[0m" 500 -
+2023-10-07 18:51:53,362 - INFO - 127.0.0.1 - - [07/Oct/2023 18:51:53] "[33mGET /generated HTTP/1.1[0m" 404 -
+2023-10-07 18:51:57,983 - INFO - 127.0.0.1 - - [07/Oct/2023 18:51:57] "[33mGET /generated/ HTTP/1.1[0m" 404 -
+2023-10-07 18:52:06,712 - INFO - 127.0.0.1 - - [07/Oct/2023 18:52:06] "[35m[1mGET /generated/original HTTP/1.1[0m" 500 -
+2023-10-07 18:52:16,524 - INFO - 127.0.0.1 - - [07/Oct/2023 18:52:16] "[35m[1mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 500 -
+2023-10-07 19:16:37,041 - INFO - 127.0.0.1 - - [07/Oct/2023 19:16:37] "[31m[1mPOST /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 405 -
+2023-10-07 19:16:46,539 - INFO - 127.0.0.1 - - [07/Oct/2023 19:16:46] "[35m[1mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 500 -
+2023-10-07 19:26:22,467 - INFO -  * Detected change in 'D:\\internships\\ORAL_CANCER_WEBAPP\\backend\\app.py', reloading
+2023-10-07 19:26:24,172 - INFO -  * Restarting with stat
+2023-10-07 19:26:32,410 - INFO - Initiating database connection
+2023-10-07 19:26:33,642 - INFO - Database connection successful
+2023-10-07 19:26:33,673 - WARNING -  * Debugger is active!
+2023-10-07 19:26:33,678 - INFO -  * Debugger PIN: 595-957-525
+2023-10-07 19:26:33,958 - INFO - 127.0.0.1 - - [07/Oct/2023 19:26:33] "GET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1" 200 -
+2023-10-07 19:34:27,269 - INFO - 127.0.0.1 - - [07/Oct/2023 19:34:27] "GET /uploads/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1" 200 -
+2023-10-07 19:34:56,131 - INFO - 127.0.0.1 - - [07/Oct/2023 19:34:56] "[33mGET /uploads/generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 404 -
+2023-10-07 19:35:07,422 - INFO - 127.0.0.1 - - [07/Oct/2023 19:35:07] "GET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1" 200 -
+2023-10-07 19:43:53,282 - INFO - Image test_image.jpg saved to uploads/original\f88bb0e7-ec3a-4f32-b1b3-f6690b2f1b97.jpg
+2023-10-07 19:43:53,345 - INFO - Classification class initialization successful
+2023-10-07 19:43:53,345 - INFO - caller function initiated
+2023-10-07 19:43:56,809 - INFO - Finished model prediction
+2023-10-07 19:43:56,891 - INFO - Finished Model Process
+2023-10-07 19:43:56,896 - INFO - [['f88bb0e7-ec3a-4f32-b1b3-f6690b2f1b97', 'uploads/original\\f88bb0e7-ec3a-4f32-b1b3-f6690b2f1b97.jpg']]
+2023-10-07 19:43:56,896 - INFO - [['f88bb0e7-ec3a-4f32-b1b3-f6690b2f1b97', 'uploads/generated/f88bb0e7-ec3a-4f32-b1b3-f6690b2f1b97.jpg']]
+2023-10-07 19:43:56,896 - INFO - Uploading image to database
+2023-10-07 19:43:57,087 - INFO - Database update successful
+2023-10-07 19:43:57,092 - INFO - 127.0.0.1 - - [07/Oct/2023 19:43:57] "POST /upload HTTP/1.1" 200 -
+2023-10-07 20:23:48,993 - INFO - Image 60578.jpg saved to uploads/original\b4eb9b5e-113f-4c80-990f-32de3c812558.jpg
+2023-10-07 20:23:48,995 - INFO - Image 74737.jpg saved to uploads/original\d65ba8ee-6978-4766-914e-de92274df76e.jpg
+2023-10-07 20:23:48,997 - INFO - Image 428356.jpg saved to uploads/original\589f4ebf-07b9-4f3c-89de-ae1722f0a997.jpg
+2023-10-07 20:23:49,078 - INFO - Classification class initialization successful
+2023-10-07 20:23:49,078 - INFO - caller function initiated
+2023-10-07 20:23:52,262 - INFO - Finished model prediction
+2023-10-07 20:23:52,339 - INFO - Finished Model Process
+2023-10-07 20:23:52,341 - INFO - [['b4eb9b5e-113f-4c80-990f-32de3c812558', 'uploads/original\\b4eb9b5e-113f-4c80-990f-32de3c812558.jpg'], ['d65ba8ee-6978-4766-914e-de92274df76e', 'uploads/original\\d65ba8ee-6978-4766-914e-de92274df76e.jpg'], ['589f4ebf-07b9-4f3c-89de-ae1722f0a997', 'uploads/original\\589f4ebf-07b9-4f3c-89de-ae1722f0a997.jpg']]
+2023-10-07 20:23:52,341 - INFO - [['b4eb9b5e-113f-4c80-990f-32de3c812558', 'uploads/generated/b4eb9b5e-113f-4c80-990f-32de3c812558.jpg'], ['d65ba8ee-6978-4766-914e-de92274df76e', 'uploads/generated/d65ba8ee-6978-4766-914e-de92274df76e.jpg'], ['589f4ebf-07b9-4f3c-89de-ae1722f0a997', 'uploads/generated/589f4ebf-07b9-4f3c-89de-ae1722f0a997.jpg']]
+2023-10-07 20:23:52,341 - INFO - Uploading image to database
+2023-10-07 20:23:52,529 - INFO - Database update successful
+2023-10-07 20:23:52,533 - INFO - 127.0.0.1 - - [07/Oct/2023 20:23:52] "POST /upload HTTP/1.1" 200 -
+2023-10-07 20:29:45,289 - INFO - Image 60578.jpg saved to uploads/original\a72fc468-1274-494a-8f5e-42b47e3cd22d.jpg
+2023-10-07 20:29:45,290 - INFO - Image 74737.jpg saved to uploads/original\7218f551-02ca-4995-b1ca-50f36aba2405.jpg
+2023-10-07 20:29:45,292 - INFO - Image 428356.jpg saved to uploads/original\2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg
+2023-10-07 20:29:45,361 - INFO - Classification class initialization successful
+2023-10-07 20:29:45,361 - INFO - caller function initiated
+2023-10-07 20:29:48,493 - INFO - Finished model prediction
+2023-10-07 20:29:48,578 - INFO - Finished Model Process
+2023-10-07 20:29:48,581 - INFO - [['a72fc468-1274-494a-8f5e-42b47e3cd22d', 'uploads/original\\a72fc468-1274-494a-8f5e-42b47e3cd22d.jpg'], ['7218f551-02ca-4995-b1ca-50f36aba2405', 'uploads/original\\7218f551-02ca-4995-b1ca-50f36aba2405.jpg'], ['2edd312c-a0a6-434b-bfcc-3fbcb239076f', 'uploads/original\\2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg']]
+2023-10-07 20:29:48,581 - INFO - [['a72fc468-1274-494a-8f5e-42b47e3cd22d', 'uploads/generated/a72fc468-1274-494a-8f5e-42b47e3cd22d.jpg'], ['7218f551-02ca-4995-b1ca-50f36aba2405', 'uploads/generated/7218f551-02ca-4995-b1ca-50f36aba2405.jpg'], ['2edd312c-a0a6-434b-bfcc-3fbcb239076f', 'uploads/generated/2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg']]
+2023-10-07 20:29:48,581 - INFO - Uploading image to database
+2023-10-07 20:29:48,768 - INFO - Database update successful
+2023-10-07 20:29:48,773 - INFO - 127.0.0.1 - - [07/Oct/2023 20:29:48] "POST /upload HTTP/1.1" 200 -
+2023-10-07 20:33:21,153 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:21] "[33mGET /generated/efb4a964-be46-4b4f-95a8-f4371178dff1.jpg HTTP/1.1[0m" 404 -
+2023-10-07 20:33:47,133 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:47] "GET /generated/2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg HTTP/1.1" 200 -
+2023-10-07 20:33:57,100 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:57] "GET /generated/2edd312c-a0a6-434b-bfcc-3fbcb239076f.jpg HTTP/1.1" 200 -
+2023-10-07 20:33:57,413 - INFO - 127.0.0.1 - - [07/Oct/2023 20:33:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
