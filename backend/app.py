@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify, send_file
+from flask import Flask, render_template, request, redirect, url_for, jsonify, send_file, send_from_directory
 import os
 import uuid
 from database import *
@@ -6,7 +6,7 @@ from classfication import *
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3001"}})
+CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 app.config["UPLOADS_DEFAULT_DEST"] = "uploads/original"
 app.config["UPLOADED_IMAGES_DEST"] = "uploads/original"
 app.config["PROCESSED_IMAGES_DEST"] = "uploads/generated"
